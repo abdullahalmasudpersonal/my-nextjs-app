@@ -1,11 +1,11 @@
-import React from 'react';
+import Counter from "@/components/Counter/Counter";
 
-const page = () => {
+const HomePage = () => {
   return (
     <div>
-      <h1 className='text-center font-sans text-4xl'>Welcome to next js home page</h1>
+      <Counter />
     </div>
   );
 };
 
-export default page;
+export default HomePage;
